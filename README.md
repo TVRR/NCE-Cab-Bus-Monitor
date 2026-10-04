@@ -3,10 +3,9 @@ Working on it
 
 This is a monitor for the NCE Cab Bus.
 
-Arduino Uno R4
-  I designed this on a Uno R4. Using SoftSerial Library by ____________________________________
-  I am Attempting to run it on a Nano, but the SoftSerial Library does not have all the pieces for a Nano.
-  Stay tuned.
+Developed with anArduino Uno R4. 
+  I designed this on an Uno R4. Using Arduino built in SoftwareSerial Library
+  Also tested with a Nano.
 
 I used an RS485 board that contains a MAX 485 chip. You could easily use the IC and build your own interface
   the MAX 485 Converts Cab Bus RS485 to RS232 that is input to Arduino.
